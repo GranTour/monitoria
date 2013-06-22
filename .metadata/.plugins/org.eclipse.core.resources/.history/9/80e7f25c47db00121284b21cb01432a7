@@ -1,0 +1,26 @@
+package main;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+
+@RequestScoped
+@ManagedBean
+public class Main {
+	public static final String MENSAGEM = "Mensagem";
+	
+//	@PostConstruct
+//public void init() {
+//
+//}
+	
+	public String getMensagem() {
+		return MENSAGEM;
+	}
+	
+	public setTexto(String texto) {
+		
+	}
+	
+}

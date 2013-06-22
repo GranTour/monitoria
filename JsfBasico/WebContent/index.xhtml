@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Exemplo monitoria 2013.1-Vladwoguer Bezerra</title>
+    </h:head>
+    <h:body>
+    <h:outputText value="#{main.mensagem}" />
+    <h:form>
+   <b>Insira seu texto aqui:</b>
+  <h:inputText id="identificador" value="#{main.texto}"/>
+   <h:commandButton action="#{main.mover}" value="Mover"/>
+   
+   <br />
+   <br />
+   <h:outputText id="texto" value="#{main.texto2}" />
+   
+   <br />
+   <br />
+ 
+ <h:commandButton action="#{main.navegar}" value="Ir pra outra pagina"/>
+       </h:form>
+    </h:body>
+</html>
